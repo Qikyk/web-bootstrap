@@ -13,9 +13,9 @@
     />
     <!-- css bootstrap end -->
   </head>
-  <body>
+  <body class="bg-dark">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top" style="background: #dc3545">
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">MyPorf</a>
         <button
@@ -63,7 +63,7 @@
           </ul>
           <form class="d-flex" role="search">
             <input
-              class="form-control me-2"
+              class="form-control me-2 border-light"
               type="search"
               placeholder="Search"
               aria-label="Search"
@@ -78,7 +78,7 @@
     <!-- column -->
     <div
       class="container-fluid text-center bg-dark text-light"
-      style="height: 100%"
+      style="height: 100vh"
     >
       <!--  carousel      -->
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -110,7 +110,7 @@
               src="img/1.jpeg"
               class="d-block w-100"
               alt="gambar"
-              style="height: 500px; object-fit: cover"
+              style="height: 400px; object-fit: cover"
             />
             <div class="carousel-caption">
               <h5>🌟Semeru Tour🌟</h5>
@@ -124,7 +124,7 @@
               src="img/2.jpeg"
               class="d-block w-100"
               alt="gambar"
-              style="height: 500px; object-fit: cover"
+              style="height: 400px; object-fit: cover"
             />
             <div class="carousel-caption d-md-block">
               <h5>🌟Bromo Tour🌟</h5>
@@ -138,7 +138,7 @@
               src="img/3.jpeg"
               class="d-block w-100"
               alt="gambar"
-              style="height: 500px; object-fit: cover"
+              style="height: 400px; object-fit: cover"
             />
             <div class="carousel-caption d-md-block">
               <h5>🌟Rinjani Tour🌟</h5>
@@ -168,9 +168,11 @@
         </button>
       </div>
       <!-- end  carousel      -->
+
+      <!-- avatar     -->
       <div class="row align-items-center mt-4">
         <div class="col-sm-12">
-          <img src="img/4.png" class="d-block w-100" alt="gambar" />
+          <img src="img/4.png" class="w-75" alt="gambar" />
           <h2>🌟My Web Tryp🌟</h2>
           <i
             >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -178,45 +180,55 @@
           >
         </div>
       </div>
+      <!-- end avatar     -->
 
       <!-- card -->
       <div class="row align-items-center text-dark">
-        <div class="col-sm-4 g-5">
+        <div class="col-sm-4 g-4">
           <div class="card">
-            <h5 class="card-header">Featured</h5>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">
+              <h5 class="card-title">Card Pertama</h5>
+              <p class="card-text text-start">
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-dark d-block">Go somewhere</a>
+              <span
+                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+                ><span class="text-success">$</span>20</span
+              >
             </div>
           </div>
         </div>
-        <div class="col-sm-4 g-5">
+        <div class="col-sm-4 g-4">
           <div class="card">
-            <h5 class="card-header">Featured</h5>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">
+              <h5 class="card-title">Card ke Dua</h5>
+              <p class="card-text text-start">
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-dark d-block">Go somewhere</a>
+              <span
+                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+                ><span class="text-success">$</span>14</span
+              >
             </div>
           </div>
         </div>
-        <div class="col-sm-4 g-5">
+        <div class="col-sm-4 g-4">
           <div class="card">
-            <h5 class="card-header">Featured</h5>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">
+              <h5 class="card-title">Card ke Tiga</h5>
+              <p class="card-text text-start">
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-dark d-block">Go somewhere</a>
+              <span
+                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-warning text-dark"
+                ><span class="text-success">$</span>9</span
+              >
             </div>
           </div>
         </div>
